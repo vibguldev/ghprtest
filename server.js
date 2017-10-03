@@ -7,7 +7,7 @@ http.createServer( (req, res) => {
   })
 }).listen(process.env.NODE_PORT, (err) => {
   if (err) return err
-  console.log(`Listening at port ${process.env.NODE_PORT}`)
+  console.log(`Listening at the port ${process.env.NODE_PORT}`)
   console.log(square(100))
   console.log('Press Ctrl-C to exit')
 })
